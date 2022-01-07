@@ -5,7 +5,7 @@ import Loader from './Loader';
 import axios from 'axios';
 import API_KEY from '../secrets';
 
-export class Content extends Component {
+export class ContentAPI extends Component {
     constructor(props) {
         super(props);
 
@@ -73,4 +73,4 @@ export class Content extends Component {
     }
 }
 
-export default Content
+export default ContentAPI
